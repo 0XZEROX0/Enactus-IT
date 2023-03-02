@@ -1,0 +1,76 @@
+body{
+    background-image: url('Screenshot 2022-08-04 005441.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+#dropdownId {
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+}
+
+.bg-primary {
+    background-color: #2c2f33 !important;
+}
+
+.btn-outline-success {
+    color: #fff;
+    background-color: #455248;
+    border-color: #a72863;
+  }
+
+
+
+.navbar{
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+
+.intro {
+    text-align: center;
+    font-size: 55px;
+    color: #D85F27;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.content{
+    text-align: center;
+    font-size: 20px;
+    color: #D85F27;
+}
+
+.rectangle{
+    background: #2c2f33; /* Old browsers */
+}
+
+.grid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.photo > img{
+    width: 100%;
+    height: 100%;
+}
+
+.zone {     
+    cursor:pointer;
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
